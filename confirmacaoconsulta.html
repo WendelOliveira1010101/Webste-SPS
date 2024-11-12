@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Consulta Médica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 500px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #28a745;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .consulta-detalhes {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .consulta-detalhes p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Consulta Confirmada!</h1>
+        <p>Sua consulta foi confirmada com sucesso. Aqui estão os detalhes:</p>
+
+        <div class="consulta-detalhes">
+            <p><strong>Especialista:</strong> Dr. João Silva</p>
+            <p><strong>Data:</strong> 15/11/2024</p>
+            <p><strong>Hora:</strong> 14:00</p>
+            <p><strong>Local:</strong> Clínica Saúde Viva</p>
+        </div>
+
+        <button onclick="window.location.href='teste.html'">Voltar à Página Inicial</button>
+    </div>
+
+</body>
+</html>
